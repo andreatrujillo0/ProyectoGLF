@@ -127,6 +127,6 @@ Esta expresión es **regular** porque cumple con las características de los len
 | `12a4` | Contiene letra 'a' |
 | `12 34` | Contiene espacio |
 | `1234-56` | Contiene guión |
-| `` | Cadena vacía |
+| " " | Cadena vacía |
 | `abcd` | Solo letras, sin dígitos |
 
