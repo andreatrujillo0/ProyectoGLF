@@ -136,15 +136,3 @@ Esta expresión es **regular** porque cumple con las características de los len
 | `` | Cadena vacía |
 | `abcd` | Solo letras, sin dígitos |
 
-## Representación como Autómata Finito
-
-Este patrón puede visualizarse como dos caminos separados:
-```
-Estado Inicial → Leer 4 dígitos → ACEPTAR
-              ↓
-              → Leer 6 dígitos → ACEPTAR
-```
-
-- **Camino 1**: Leer exactamente 4 dígitos → ACEPTAR
-- **Camino 2**: Leer exactamente 6 dígitos → ACEPTAR
-- Cualquier otra secuencia → RECHAZAR
